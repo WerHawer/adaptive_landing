@@ -283,6 +283,8 @@
                 }
                 .block2 {
                     font: 300 16px/20px "RobotoCondensed-Light";
+                    margin-bottom: 0;
+                    min-height: 370px;
                 }
                 .block2__title {
                     font: 400 22px/25px "Lobster";
@@ -296,6 +298,9 @@
                 }
                 .block2__title {
                     padding-left: 12px;
+                }
+                .block4__title {
+                    padding: 20px;
                 }
                 .block6 ul li {
                     width: 55%;
