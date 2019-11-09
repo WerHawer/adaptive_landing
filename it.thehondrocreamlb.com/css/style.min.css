@@ -1927,6 +1927,10 @@ ul.list-inline li.helper {
     border-radius: 15px;
 }
 
+.block10 .wrapper {
+    padding-top: 10px;
+}
+
 .block10 .wrapper::before {
     content: '';
     position: absolute;
@@ -2019,7 +2023,7 @@ ul.list-inline li.helper {
 
 .block10-form {
     padding: 20px;
-    margin: 38px 40px 0 20px;
+    margin: 0px 40px 0 20px;
     width: 440px;
     border-radius: 20px;
     background: #b7064d;
