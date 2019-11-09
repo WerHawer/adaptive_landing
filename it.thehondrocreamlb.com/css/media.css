@@ -1,0 +1,294 @@
+            @media(max-width:999px) {
+                .block4 ul {
+                    display: flex;
+                    justify-content: flex-start;
+                    overflow-x: scroll;
+                }
+                .block4 ul::-webkit-scrollbar {
+                    display: none;
+                }
+                .block4 ul li {
+                    margin-right: 30px;
+                    display: block;
+                }
+                .block4 ul li:last-child {
+                    margin-right: 0;
+                    /* display: none; */
+                }
+                .block4 .wrapper {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .block5__wrap {
+                    font: 300 19px/27px "RobotoCondensed-Light";
+                }
+                .block10__table {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .block10 {
+                    height: 100%;
+                }
+                .block10 .wrapper::before {
+                    height: 100%;
+                }
+                .block10-form {
+                    margin: 38px 0 15px 0;
+                }
+            }
+            
+            @media(max-width: 955px) {
+                .imlogo {
+                    display: none;
+                }
+                .block2 {
+                    font: 300 19px/28px "RobotoCondensed-Light";
+                }
+                .block2__title {
+                    font: 400 27px/30px "Lobster";
+                }
+                .block5__wrap {
+                    font: 300 17px/25px "RobotoCondensed-Light";
+                }
+                .block6 ul {
+                    display: flex;
+                }
+                .block6 ul li:nth-child(2) {
+                    background-position-y: 60px;
+                }
+                .block6 .wrapper {
+                    padding: 60px 0 40px 0;
+                }
+            }
+            
+            @media(max-width:855px) {
+                .block1__top {
+                    font: 400 20px/50px "RobotoCondensed-Light";
+                }
+                .block2 {
+                    font: 300 17px/26px "RobotoCondensed-Light";
+                }
+                .block2__title {
+                    font: 400 25px/30px "Lobster";
+                }
+                .block5__wrap {
+                    font: 300 16px/24px "RobotoCondensed-Light";
+                }
+            }
+            
+            @media(max-width:805px) {
+                .block1__top {
+                    font: 400 18px/50px "RobotoCondensed-Light";
+                }
+                .block1__price {
+                    font: normal 26px/46px "Lobster";
+                    height: 66px;
+                    width: 80%;
+                    margin-left: 30px;
+                }
+                .block__timer {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .block__timer-text {
+                    font: 300 12px/28px "RobotoCondensed-Light";
+                }
+                .block1__title {
+                    font: normal 40px/40px "Lobster";
+                }
+                .block1__sub {
+                    font: 300 22px/33px "RobotoCondensed-Light";
+                }
+                .block2__title {
+                    font: 400 23px/34px "Lobster";
+                }
+                .block5 img {
+                    display: none;
+                }
+                .block5__wrap::before {
+                    display: none;
+                }
+                .block5__wrap {
+                    margin-left: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 20px;
+                    font: 300 18px/25px "RobotoCondensed-Light"
+                }
+            }
+            
+            @media(max-width:771px) {
+                .block1__body {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                }
+                .block1__price-timer {
+                    background-color: #b7064d;
+                    background-image: none;
+                    border-radius: 0;
+                    border-bottom-left-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                    margin-bottom: 30px;
+                }
+                .block1__top {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                }
+                .block1__top-action {
+                    padding-top: 10px;
+                    background-color: #b7064d;
+                }
+                .block1__left {
+                    margin-left: 60px;
+                }
+                .block2__title {
+                    font: 400 22px/34px "Lobster";
+                }
+                .block3__list ul {
+                    display: flex;
+                    /* flex-direction: column */
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                .block3__list ul li {
+                    width: 328px;
+                }
+                .block3__list ul li:last-child {
+                    margin: 0 auto;
+                }
+                .block6 ul {
+                    flex-direction: column;
+                }
+                .block6 ul li {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media(max-width:740px) {
+                .block2 {
+                    font: 300 16px/23px "RobotoCondensed-Light";
+                }
+                .block2__top .wrapper::before {
+                    top: 0;
+                }
+            }
+            
+            @media(max-width:702px) {
+                .block3__list ul li {
+                    margin: 0 auto;
+                }
+                .block7__warning {
+                    width: 100%;
+                    max-width: 640px;
+                }
+            }
+            
+            @media(max-width:650px) {
+                .block7__warning_title {
+                    font: 400 33px/30px "Lobster";
+                }
+                .block7__warning {
+                    font: 300 19px/27px "RobotoCondensed-Light";
+                }
+                .block7__delivery_title {
+                    font: 400 38px/38px "Lobster";
+                }
+                .block7__delivery {
+                    font: 300 18px/27px "RobotoCondensed-Light";
+                }
+            }
+            
+            @media(max-width:640px) {
+                .block2 {
+                    font: 300 16px/21px "RobotoCondensed-Light";
+                    min-height: 463px;
+                }
+                .block2__top .wrapper {
+                    padding: 20px 0 10px 180px;
+                    background-size: cover;
+                }
+                .block2__title {
+                    padding-left: 162px;
+                }
+                .block10__title {
+                    font: 700 35px/37px "Lobster";
+                    padding: 45px 0 0 200px;
+                }
+            }
+            
+            @media(max-width:594px) {
+                .block10__title::before {
+                    left: -40px;
+                    top: -58px;
+                }
+            }
+            
+            @media(max-width:575px) {
+                .block2 {
+                    font: 300 15px/20px "RobotoCondensed-Light";
+                }
+                .block2__top .wrapper {
+                    padding: 5px 0 10px 180px;
+                    min-height: 255px;
+                }
+                .block2__title {
+                    font: 400 20px/25px "Lobster";
+                    padding-top: 10px;
+                }
+                .block7__warning_title {
+                    font: 400 32px/30px "Lobster";
+                }
+                .block7__warning {
+                    font: 300 16px/23px "RobotoCondensed-Light";
+                }
+                .block7__delivery_title {
+                    font: 400 36px/34px "Lobster";
+                }
+                .block7__delivery {
+                    font: 300 16px/22px "RobotoCondensed-Light";
+                }
+                .block10__title {
+                    font: 700 33px/33px "Lobster";
+                    padding: 45px 0 0 219px;
+                }
+                .block10__count {
+                    margin-left: 110px;
+                    margin-right: 15px;
+                }
+                .block10__allsale {
+                    margin: 36px 0 0 105px;
+                    padding: 5px 0 30px 55px;
+                }
+            }
+            
+            @media(max-width:525px) {
+                .block7__delivery {
+                    padding-right: 15px;
+                    font: 300 18px/22px "RobotoCondensed-Light";
+                }
+                .block7__delivery::before {
+                    display: none;
+                }
+                .block7__warning_title {
+                    padding-bottom: 15px;
+                }
+            }
+            
+            @media(max-width:495px) {
+                .wrapper {
+                    margin-right: 0;
+                }
+                .block2 {
+                    font: 300 14px/18px "RobotoCondensed-Light";
+                }
+                .block2__title {
+                    font: 400 19px/25px "Lobster";
+                    padding-top: 10px;
+                }
+                .block2__top .wrapper::before {
+                    top: 7px;
+                }
+            }
