@@ -1076,7 +1076,7 @@ body {
     color: #fff;
     font: 17px/25px Georgia, "Times New Roman", Times, serif;
     background: #1f242a;
-    min-width: 485px;
+    /* min-width: 320px; */
     background: url("../images/img1.0.1.png") repeat-x center 0 #3a1a2d;
 }
 
@@ -1923,7 +1923,8 @@ ul.list-inline li.helper {
 }
 
 .block10__left {
-    background: transparent url("../images/img8.5.png") 20px 38px no-repeat;
+    border: 2px dashed #b7064d;
+    border-radius: 15px;
 }
 
 .block10 .wrapper::before {
@@ -2070,7 +2071,8 @@ ul.list-inline li.helper {
     position: relative;
 }
 
-.custom_select:before {
+
+/* .custom_select:before {
     content: '';
     position: absolute;
     top: 1px;
@@ -2080,7 +2082,7 @@ ul.list-inline li.helper {
     background: #fff;
     pointer-events: none;
     border-radius: 3px;
-}
+} */
 
 .custom_select:after {
     content: '';

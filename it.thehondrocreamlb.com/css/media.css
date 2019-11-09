@@ -291,4 +291,30 @@
                 .block2__top .wrapper::before {
                     top: 7px;
                 }
+                .block10__title::before {
+                    display: none;
+                }
+                .block10__title {
+                    padding: 16px 0 0 88px;
+                }
+                .block10__price {
+                    margin: 25px 0 0 23px;
+                }
+                .block10__sale {
+                    margin: 20px 0 20px 0px;
+                }
+                .block10__count {
+                    margin-left: 46px
+                }
+                .block10__allsale {
+                    margin: 37px 0 0 0px;
+                    padding: 5px 0 12px 15px;
+                }
+                .block10-form {
+                    width: 100%;
+                    max-width: 440px;
+                }
+                .form-horizontal .row-select {
+                    width: 100%;
+                }
             }
