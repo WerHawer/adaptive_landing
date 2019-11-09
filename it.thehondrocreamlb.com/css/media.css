@@ -282,14 +282,23 @@
                     margin-right: 0;
                 }
                 .block2 {
-                    font: 300 14px/18px "RobotoCondensed-Light";
+                    font: 300 16px/20px "RobotoCondensed-Light";
                 }
                 .block2__title {
-                    font: 400 19px/25px "Lobster";
+                    font: 400 22px/25px "Lobster";
                     padding-top: 10px;
                 }
                 .block2__top .wrapper::before {
-                    top: 7px;
+                    display: none;
+                }
+                .block2__top .wrapper {
+                    padding: 10px 0 10px 14px;
+                }
+                .block2__title {
+                    padding-left: 12px;
+                }
+                .block6 ul li {
+                    width: 55%;
                 }
                 .block7__warning {
                     padding: 20px 162px 20px 20px;
